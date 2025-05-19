@@ -1,82 +1,79 @@
-# 介绍
+# introduceren
 
-本项目致力于对 Python 3.7 的源码分析，深度参考陈儒大大的《Python 源码剖析》，编写 Python 3 的版本。
+Dit project is gewijd aan de broncodeanalyse van Python 3.7, met uitgebreide verwijzing naar Chen Ru's "Python Source Code Analysis" om de Python 3-versie te schrijven.
 
-希望各位 Python 爱好者能参与其中，一起探索 Python 魔法背后的奥秘！
+Ik hoop dat alle Python-liefhebbers zich bij ons aansluiten en de geheimen achter Python-magie ontdekken!
 
-# 使用
+# gebruik
 
-您可以直接访问 [在线版](https://flaggo.github.io/python3-source-code-analysis/)，或者根据以下步骤访问本地版。
+U kunt direct toegang krijgen tot de [online versie](https://flaggo.github.io/python3-source-code-analysis/), of de onderstaande stappen volgen om toegang te krijgen tot de lokale versie.
 
-## 前置条件
+## Vereisten
 
-您的系统上需要安装好 node （会自带npm）。
+Node moet op uw systeem geïnstalleerd zijn (het wordt meegeleverd met npm).
 
-## 使用 make 或者使用 npm 命令去构建
+## Gebruik de opdracht make of npm om te bouwen
 
-### 使用 make 命令的方式构建：
+### Bouw met behulp van de make opdracht:
 
-若您可使用 make 命令，简单执行如下命令进行初始化：
+Als u de opdracht make kunt gebruiken, voert u eenvoudigweg de volgende opdracht uit om te initialiseren:
 
 ```console
 make init
 ```
 
-执行如下命令运行服务端：
+Voer de volgende opdracht uit om de server te starten:
 
 ```console
 make run
 ```
 
-### 使用 npm 命令的方式构建：
+### Bouwen met behulp van de npm-opdracht:
 
-若您不能使用 make 命令，或想直接使用 npm 命令，执行如下命令进行初始化：
+Als u de opdracht make niet kunt gebruiken of de opdracht npm rechtstreeks wilt gebruiken, voert u de volgende opdracht uit om te initialiseren:
 
-安装项目依赖：
+Projectafhankelijkheden installeren:
 
 ```console
 npm install
 ```
 
-执行如下命令运行服务端：
+Voer de volgende opdracht uit om de server te starten:
 
 ```console
 npm run serve
 ```
 
-## 访问
+## Toegang
 
-直接访问 http://localhost:4000 即可查看本书内容。
+U kunt de inhoud van dit boek bekijken door rechtstreeks naar http://localhost:4000 te gaan.
 
-# Roadmap
+#Roadmap
 
-大体按照《Python 源码剖析》中的目录结构进行编写。依次介绍 Python 源码基本信息、内建对象和虚拟机。
+Het is grofweg geschreven volgens de directorystructuur in "Python Source Code Analysis". In dit hoofdstuk vindt u basisinformatie over de broncode, ingebouwde objecten en virtuele machines van Python.
 
-- [x] 章节
-    - [x] 序章
-    - [x] 前言
-    - [x] Python 源代码的组织
-    - [x] Windows 环境下编译 Python
-    - [x] UNIX/Linux 环境下编译 Python
-    - [x] 修改 Python 源码
-- [ ] Python 内建对象
-    - [x] Python 对象初探
-    - [x] Python 整数对象
-    - [ ] Python 字符串 对象
-    - [x] Python List 对象
-    - [x] Python Dict 对象
-    - [x] Python Set 对象
-    - [ ] 实现简版 Python
-- [ ] Python 虚拟机
-    - [ ] Python 编译结果
-    - [ ] Python 虚拟机框架
-    - [ ] 虚拟机一般表达式
-    - [ ] Python 虚拟机控制流
-    - [ ] Python 虚拟机函数机制
-    - [ ] Python 运行环境初始化
-    - [ ] Python 模块加载机制
-    - [ ] Python 多线程机制
-    - [ ] Python 内存管理机制
-
-
-
+- [x] Hoofdstuk
+- [x] Proloog
+- [x] Voorwoord
+- [x] Organisatie van Python-broncode
+- [x] Python compileren onder Windows
+- [x] Python compileren in een UNIX/Linux-omgeving
+- [x] Python-broncode wijzigen
+- [ ] Ingebouwde Python-objecten
+- [x] Inleiding tot Python-objecten
+- [x] Python integer-object
+- [ ] Python-stringobject
+- [x] Python-lijstobject
+- [x] Python Dict-object
+- [x] Python Set-object
+- [ ] Implementeer een vereenvoudigde Python-versie
+- [ ] Python virtuele machine
+- [ ] Python-compilatieresultaten
+- [ ] Python virtueel machine-framework
+- [ ] Algemene expressie voor virtuele machine
+- [ ] Besturingsstroom voor virtuele machines in Python
+- [ ] Python virtuele machine functiemechanisme
+- [ ] Initialiseer Python runtime-omgeving
+- [ ] Python-modulelaadmechanisme
+- [ ] Python multithreading-mechanisme
+- [ ] Python-geheugenbeheermechanisme
